@@ -10,7 +10,7 @@ https://nl.wikipedia.org/wiki/Rijksuniversiteit_Groningen
 
 ## Data 
 
-An offline version of the data is available in the Data.txt file and collected on 10/03/2022. Since Wikipedia do not allow to download the page as `txt` file, I downloaded the page as a `pdf` file, then copied all the content using ` ctrl-A ` and `ctrl-V` method to a `txt` file (`Data.txt` in this case). 
+An offline version of the data is available in the Data.txt file and collected on 19/03/2022. Since Wikipedia do not allow to download the page as `txt` file, I downloaded the page as a `pdf` file, then copied all the content using ` ctrl-A ` and `ctrl-V` method to a `txt` file (`Data.txt` in this case). 
 
 ## Run 
  to run this script please you have to download the files in this repository. To do that you can clone it using this command: 
@@ -33,12 +33,12 @@ An offline version of the data is available in the Data.txt file and collected o
   sh wordfreq.sh Data.txt
   ```
   
- ##Output
+## Output
  The output of this script must be ` The word 'De' in Data.txt occurd 252 times` if you use the same data file `Data.txt`
  
- ##Versions
- OS used macOS Monterey `version 12.0.1`
- GNU bash, version `3.2.57(1)`
+## Versions
+ OS used macOS Monterey `version 12.0.1`.  
+ GNU bash, version `3.2.57(1)`.  
  Wikipedia page downloaded 19/03/2022.
  
   
