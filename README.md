@@ -3,14 +3,14 @@ Milestone 5
 
 ## Introduction 
 
-In this repository is a shell script which counts the dutch article "de" in the dutch Wikipedia page of Rijksunversiteit Groningen. 
+In this repository is a shell script which counts the Dutch article "de" in the Dutch Wikipedia page of Rijksunversiteit Groningen. 
 The source page can be found on the following link: 
 https://nl.wikipedia.org/wiki/Rijksuniversiteit_Groningen
 
 
 ## Data 
 
-An offline version of the data is available in the Data.txt file and collected on 19/03/2022. Since Wikipedia do not allow to download the page as `txt` file, I downloaded the page as a `pdf` file, then copied all the content using ` ctrl-A ` and `ctrl-V` method to a `txt` file (`Data.txt` in this case). 
+An offline version of the data is available in the Data.txt file which collected on 19/03/2022. Since Wikipedia do not allow to download the page as `txt` file, I downloaded the page as a `pdf` file, then copied all the content using ` ctrl-A ` and `ctrl-V` method to a `txt` file (`Data.txt` in this case). 
 
 ## Run 
  to run this script please you have to download the files in this repository. To do that you can clone it using this command: 
@@ -22,7 +22,7 @@ An offline version of the data is available in the Data.txt file and collected o
  or you can simply download it as `zip` file using the green button above. 
  
  When it is downloaded or cloned:  
- 1- open the termenal and go to the directory where the files are downloaded.  
+ 1- open the terminal and go to the directory where the files are downloaded.  
  2- run this command: 
  
   ```ruby
