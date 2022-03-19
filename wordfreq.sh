@@ -2,7 +2,7 @@
 
 # This shell script is made by M. Issa
 
-# This script counts the number of occurences of the Dutch word "DE" in the dutch wikipedia page of Rijksuniversiteit Groningen
+# This script counts the number of occurences of the Dutch word "DE" in the Dutch wikipedia page of Rijksuniversiteit Groningen
 # which can be found on the following link: https://nl.wikipedia.org/wiki/Rijksuniversiteit_Groningen
 # You can use this scrips as followd:
 #1 -   ./wordfreq.sh data.txt    
@@ -20,7 +20,7 @@ then
     exit
 fi
 
-# This function catch all "DE" words an put each one in a new line, then it counts the lines
+# This function catch all "DE" words and put each one in a new line, then it counts the lines
 function count_de() {
     grep -o -i '\bde\b' $DATA | wc -l
 }
