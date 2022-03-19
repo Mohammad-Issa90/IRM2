@@ -4,15 +4,15 @@
 
 # This script counts the number of occurences of the Dutch word "DE" in the Dutch wikipedia page of Rijksuniversiteit Groningen
 # which can be found on the following link: https://nl.wikipedia.org/wiki/Rijksuniversiteit_Groningen
-# You can use this scrips as followd:
+# You can use this script as follows:
 #1 -   ./wordfreq.sh data.txt    
 #   or
 #2-    sh wordfreq.sh data.txt
 
-# The data used is stored in a txt file named Data.txt which can be find in this repository.
+# The data used is stored in a txt file named Data.txt which can be found in this repository.
 
 
-# Chck if the user has enterd a data file to use
+# Chck if the user has entered a data file to use
 DATA=$1
 if [ -z "$DATA" ]
 then 
@@ -20,7 +20,7 @@ then
     exit
 fi
 
-# This function catch all "DE" words and put each one in a new line, then it counts the lines
+# This function catches all "DE" words and put each one in a new line, then it counts the lines
 function count_de() {
     grep -o -i '\bde\b' $DATA | wc -l
 }
